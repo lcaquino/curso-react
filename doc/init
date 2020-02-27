@@ -1,0 +1,14 @@
+Instalação do nodejs
+https://nodejs.org/pt-br/
+
+Instalando o yarn
+npm install -f yarn
+
+Instalando o React CLI(create-react-app)
+npm install -g create-react-app
+
+Instalando Git
+https://git-scm.com/downloads
+
+Iniciando projeto
+npx create-react-app nome-do-projeto
