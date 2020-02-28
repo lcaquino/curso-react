@@ -11,3 +11,14 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+h1 {
+  color: brown;
+}
+
+input {
+  font-weight: bold;
+  font-size: 16px;
+  padding: 5px;  
+  border-bottom-style: solid;
+}
