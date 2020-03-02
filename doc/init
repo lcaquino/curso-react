@@ -12,3 +12,62 @@ https://git-scm.com/downloads
 
 Iniciando projeto
 npx create-react-app nome-do-projeto
+
+Git
+git init
+
+echo "# curso-react" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/lcaquino/curso-react.git
+git push -u origin master
+
+…or push an existing repository from the command line
+git remote add origin https://github.com/lcaquino/curso-react.git
+git push -u origin master
+
+#Para chamar o JS dentro do html, deve colocar entre {}
+
+#Stados
+Usar a sintaxe state, pois é própria do react
+state = {
+	numero : "123"
+}
+  
+Como chamar?
+<h1>Teste {this.state.numero}</h1>
+
+
+
+#Nós
+Quando criar um componente tem que ser de nó único 
+
+render() {
+	return (      
+		<h1>Teste {this.state.nome}</h1>
+		<h2>Teste 456</h2>      
+	)
+}
+
+não pode colocar mais de uma tag html, para isso tem duas possibilidades, uma usar o React.Fragment ou div
+
+* React.Fragment
+render() {
+    return (
+      <React.Fragment>
+        <h1>Teste {this.state.nome}</h1>
+        <h2>Teste 456</h2>
+      </React.Fragment>
+    )
+  }
+  
+* Div
+ render() {
+    return (
+      <div>
+        <h1>Teste {this.state.nome}</h1>
+        <h2>Teste 456</h2>
+      </div>
+    )
+  }

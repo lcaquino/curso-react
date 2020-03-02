@@ -13,20 +13,17 @@ code {
 }
 
 h1 {
-  color: brown;
+  color: #ff0000;
 }
 
 input {
-  font-family: 'Spartan', sans-serif;
-  font-weight: 500;
-  font-size: 16px;
-  padding: 5px; 
-  border: none; 
-  -webkit-appearance: none;
-  border-bottom: solid 2px; 
-  background-color: transparent;
+  font-weight: bold;
 }
 
-input:focus, input:active {
-  outline: none;
+select {
+  width: 200px;
+}
+
+.text-centralizado{
+  text-align: center;
 }
