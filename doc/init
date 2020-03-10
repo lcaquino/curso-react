@@ -4,13 +4,17 @@ https://nodejs.org/pt-br/
 Instalando o yarn
 npm install -f yarn
 
+Criando corpo da aplicação
 Instalando o React CLI(create-react-app)
+O create-react-app é uma ferramenta criada pelo próprio Facebook para auxiliar a construção de aplicações React, evitando todo um 
+processo de configuração de ambiente e outras dores de cabeça conhecidas pelos desenvolvedores. 
 npm install -g create-react-app
 
 Instalando Git
 https://git-scm.com/downloads
 
 Iniciando projeto
+Com o create-react-app já instalado, vamos criar nossa aplicação chamada my-app.
 npx create-react-app nome-do-projeto
 
 Git
@@ -71,3 +75,8 @@ render() {
       </div>
     )
   }
+  
+* Rotas
+Para criar rotas utilizar a biblioteca do react, instalar utilizando o npm
+npm install react-router-dom -s
+
